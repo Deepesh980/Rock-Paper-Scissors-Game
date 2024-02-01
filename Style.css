@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding: 0;
+    text-align: center;    
+}
+.heading{
+    background-color: rgb(3, 3, 42);
+    color:azure;
+    font-family:Georgia, 'Times New Roman';
+    text-align: center;
+    padding:20px;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    margin-top:5rem;
+}
+
+.choice{
+    height:200px;
+    width:200px;
+    
+}
+
+.choice:hover{
+    opacity:2;
+    cursor:pointer;
+    background-color: burlywood;
+    box-shadow: 10px 5px 10px 5px black;
+}
+
+img{
+    height:150px;
+    width:150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.Score-board{
+    display:flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    color:rgb(0, 0, 0);
+    padding:10px;
+}
+
+.score{
+    font-size: 2em;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:30px;
+}
+
+.msg-box{
+
+    font-size: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:10px;
+    padding:20px;
+    background-color: green;
+    color:azure;
+    border:2px solid blueviolet;
+    border-radius:6px;
+    margin:20px 550px 0 550px;
+}
